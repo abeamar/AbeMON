@@ -1,6 +1,6 @@
 # AbeMon App 1.0.0  
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Callibril&lines=SQL+Tool+for+Troubleshooting+your+env;Monitor+and+Debug+using+this+Tool..)](https://git.io/typing-svg)<br>
-App created using Visual Studio, C#, WinForms, T-SQL, PowerShell, WMI. This App is for Light DBA everyday work on monitoring and troubleshooting on MSSQL.
+This App is for Light DBA everyday work on monitoring and troubleshooting on MSSQL. <br>
+App created using Visual Studio, C#, WinForms, T-SQL, PowerShell, WMI. 
 <hr>
  <p dir="auto">
         <a href="#about">1. About</a><br>
@@ -14,24 +14,19 @@ App created using Visual Studio, C#, WinForms, T-SQL, PowerShell, WMI. This App 
         <a href="#conclusion">3. Conclusion</a><br>
     </p>
     <hr>
-    <br>
      <section id="about">
         <h2>1. About</h2>
-        <p>The primary focus of this project is to make an App that will have all the necessary tools for database administrator in their everyday monitoring work. This app is a fully functional tool. <br>The app is provided as a trial for 30 days, allowing you to experience its full functionality. Feel free to contact me if you like what you see. This App is designed to deliver smooth performance while using minimal system resources, consuming just 10-20MB of RAM.<br>Full Article on dev.to<br>
-         <a href="https://dev.to/abeamar/abemon-ms-sql-tool-v100-monitor-and-debug-60m"><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2mwf43v0fxe7f3z8m67y.jpg" height="235" width=540 /></a> 
+        <p>The primary focus of this project is to make an App that will have all the necessary tools for database administrator in their everyday monitoring work. This app is a fully functional tool. <br>The app is provided as a trial for 30 days, allowing you to experience its full functionality. Feel free to contact me if you like what you see. This App is designed to deliver smooth performance while using minimal system resources, consuming just 10-20MB of RAM.<br>Full Article on dev.to: https://dev.to/abeamar/abemon-ms-sql-tool-v100-monitor-and-debug-60m <hr>
          <br> <h1>🐔 AbeMon Install options: </h1><br>
          <pre><code>git clone "https://github.com/abeamar/AbeMon.git"</code></pre><br>
-       <br>
       
 > [!IMPORTANT]
-> Choose the installation method that works best for you!
-> 
+> Choose the installation method that works best for you!      
 <ol>
   <li>Using the .exe or .msi Installer:<br>https://github.com/abeamar/AbeMon/main/AbeSetup.msi <br>https://github.com/abeamar/AbeMon/main/setup.exe</p></li>
   <li>Manual Installation (Copying the Folder abeSetup)<br>After copying, you can run the application directly from that folder.</li>
 </ol>
-              <br>
-              <br>Below are some of the product screens (older version). <br>
+              Below are some of the product screens (older version). <br>
         Demo: App work preview of version v 0.1.6:
         <a href="https://vimeo.com/manage/videos/1124492178" target="_blank">Video link on Vimeo</a>
     </section>
@@ -59,22 +54,26 @@ App created using Visual Studio, C#, WinForms, T-SQL, PowerShell, WMI. This App 
     </section>
         <section id="locks">
         <h2>2.4. Locks</h2>
-        <p>In this section you can make events with option to create, purge and monitor preseted data. We are focusing on blocks, deadlocks, with specially created queries to have all the relavant info.<br>Block and Deadlock events are based on my sql script here (except now we store data in ring buffer, behaving as a client side select)  https://github.com/abeamar/sqlLockEvents <br>With debugEvent option you can track specific objects name for troubleshooting scenarios (error report).</p>
+        <p>In this section you can make events with option to create, purge and monitor preseted data. We are focusing on blocks, deadlocks, with specially created queries to have all the relavant info.<br>Block and Deadlock events are based on my sql script (except now we store data in ring buffer, behaving as a client side select) <br>With debugEvent option you can track specific objects name for troubleshooting scenarios (error report).</p>
     </section>
-            <br>
             <hr>
     <section id="export">
         <h2>2.5. Export</h2>
         <p>I created a PowerShell script that exports all SQL Server database objects along with their permissions into separate .sql files, organized into subfolders by object type (tables, views, procedures, functions).</p>
     </section>
-            <br>
             <hr>
     <section id="debug">
         <h2>2.6. Debug</h2>
         <p>Tracking and analyzing older active sessions, failed jobs, failed replications, performing column capacity checks and more...</p>
     </section>
-            <br>
             <hr>
+                    <h2>Preview</h2>
+      <p align="center">
+      <img src="preview/example_am0.jpg" width="600" alt="Example 1">
+      <img src="preview/example_am1.jpg" width="600" alt="Example 2">      
+      <img src="preview/example_am2.jpg" width="600" alt="Example 3">    
+      </p>
+    </section>
     <section id="conclusion">
         <h2>3. Conclusion</h2>
         <p>Overall, the purpose of the project was to challenge myself, to acquire skills and logic in making apps and also implement my knowledge and best practices in the MS SQL database field.<b> The end result is a fully functional and very useful tool to have in dba arsenal.</p>
